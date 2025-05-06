@@ -1,2 +1,70 @@
-# Laboratory-Course---C---Final-Project
-Open university course - Systems Programming Laboratory in C 20465, semester 2024B. Mama14 by Matan Meltz
+# Two-Pass Assembler in C
+
+This project implements a two-pass assembler for a custom assembly language, developed as part of the "Systems Programming Laboratory in C" course at the Open University.
+
+## 📌 Project Overview
+
+The assembler processes `.as` source files written in a simplified assembly language. It performs two main passes:
+1. **First Pass** – Parses the source code, builds a symbol table, and checks for syntax errors.
+2. **Second Pass** – Generates machine code and outputs it into `.ob`, `.ent`, and `.ext` files.
+
+The program also includes a pre-processor stage for handling macros.
+
+## 🛠️ Technologies Used
+
+- **Language:** C
+- **Operating Systems:** Windows & Linux compatible
+- **Build System:** `make`
+
+## 📁 Project Structure
+
+```
+Program files/
+│
+├── assembler.c           # Main entry point
+├── first_pass.c          # First-pass logic
+├── second_pass.c         # Second-pass logic
+├── pre_processor.c       # Macro processing
+├── general_functions.c   # Utility functions
+├── errors.c              # Error handling
+├── headers.h             # Shared definitions and structs
+├── makefile              # Build script
+```
+
+Example tests are located in `Example tests/`, including both input and expected output files.
+
+## 🔧 How to Build and Run
+
+1. **Navigate to the source folder:**
+   ```bash
+   cd "The final project/Program files"
+   ```
+
+2. **Compile the project:**
+   ```bash
+   make
+   ```
+
+3. **Run the assembler:**
+   ```bash
+   ./assembler path/to/file.as
+   ```
+
+   This will generate the `.ob`, `.ent`, and `.ext` output files in the same directory.
+
+## 📂 Example Test Files
+
+Located in `Example tests/`, each test includes:
+- Assembly source code
+- Output files: `.ob`, `.ent`, `.ext`
+- Screenshot for reference (in some cases)
+
+## ✍️ Author
+
+Matan Meltz  
+📧 matanmeltz@gmail.com  
+📍 Kiryat Motzkin  
+[LinkedIn](<Add your link here>) | [GitHub](<Add your link here>)
+
+---
+
