@@ -1,0 +1,17 @@
+add *r2, *r2
+sub *r0, *r6
+cmp S3, *r4
+bne SHEEP
+cmp #80 , #-34
+lea Uvt , Mtv
+rts
+mouse: .data 75
+not mouse
+S3:	dec *r0
+cmp #80 , #-34
+lea Uvt , Mtv
+rts
+.extern Mtv
+DOG: .extern SHEEP
+.extern Uvt
+MEOW: .entry S3
