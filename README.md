@@ -64,7 +64,7 @@ Located in `Example tests/`, each test includes:
 Matan Meltz  
 📧 matanmeltz@gmail.com  
 📍 Kiryat Motzkin  
-[LinkedIn](<Add your link here>) | [GitHub](<Add your link here>)
+[LinkedIn](<linkedin.com/in/matan-meltz-03134521a>) | [GitHub](<(https://github.com/matanmeltz)>)
 
 ---
 
