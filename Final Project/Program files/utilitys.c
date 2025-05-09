@@ -1,7 +1,7 @@
 #include "headers.h"
 
 /*
-* File: general_functions.c
+* File: utilitys.c
 *
 * This file is including functions that are being used in the assembler.c file, and 
 * also functions that are being used in more than one file from the project files.
@@ -290,7 +290,7 @@ void turnOnBit(short* num, short start)
 	*num |= bit_position;
 }
 
-/******************************************************************* - MORE GENERAL FUNCTIONS - *******************************************************************/
+/******************************************************************* - GENERAL FUNCTIONS - *******************************************************************/
 
 /* 
 * The function: mainGeneralFree
@@ -339,5 +339,5 @@ void checkIfRemainMoreFile(int argc)
 		printf("Continue reading the next file\n");
 }
 
-/****************************************************************** - END OF GENERAL_FUNCTIONS - ******************************************************************/
+/****************************************************************** - END OF UTILITYS - ******************************************************************/
 

@@ -1,8 +1,3 @@
-/* 
-* SUBMITS THE PROJECT:
-* 	Matan Meltz, ID: 316236702
-*	Yuval Rosenblum, ID: 314949322
-*/
 
 /********************************************************************* - FILES DISCRIPTION - *********************************************************************/
 
@@ -15,7 +10,7 @@
 *			2. pre_processor.c
 *			3. first_pass.c
 *			4. second_pass.c
-*			5. general_functions.c
+*			5. utilitys.c
 *			6. errors.c
 *			7. headers.h
 *			8. makefile
@@ -188,7 +183,7 @@ void printfEntOutputLine(FILE*, declarationNode*, short*);
 void printfExtOutputLine(FILE*, instructionNode*, short*);
 void getRelocatableBMC(short, short*);
 
-/***************************************************************** - GENERAL_FUNCTIONS FUNCTIONS - *****************************************************************/
+/********************************************************************* - UTILITYS FUNCTIONS - *********************************************************************/
 
 short isOpcode(char*);
 short isRegister(char*);
