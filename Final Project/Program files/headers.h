@@ -10,7 +10,7 @@
 *			2. pre_processor.c
 *			3. first_pass.c
 *			4. second_pass.c
-*			5. utilitys.c
+*			5. utilities.c
 *			6. errors.c
 *			7. headers.h
 *			8. makefile
@@ -183,7 +183,7 @@ void printfEntOutputLine(FILE*, declarationNode*, short*);
 void printfExtOutputLine(FILE*, instructionNode*, short*);
 void getRelocatableBMC(short, short*);
 
-/********************************************************************* - UTILITYS FUNCTIONS - *********************************************************************/
+/********************************************************************* - UTILITIES FUNCTIONS - *********************************************************************/
 
 short isOpcode(char*);
 short isRegister(char*);

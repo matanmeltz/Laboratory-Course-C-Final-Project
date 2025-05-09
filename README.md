@@ -1,6 +1,6 @@
 # Two-Pass Assembler in C
 
-This project implements a two-pass assembler for a custom assembly language, developed as part of the "Systems Programming Laboratory in C" course at the Open University.
+This project implements a two-pass assembler for a custom assembly language, developed as part of the "Systems Programming Laboratory in C" course at the Open University of Israel.
 
 ## 📌 Project Overview
 
@@ -25,7 +25,7 @@ Program files/
 ├── first_pass.c          # First-pass logic
 ├── second_pass.c         # Second-pass logic
 ├── pre_processor.c       # Macro processing
-├── utilitys.c            # Utility functions
+├── utilities.c           # Utility functions
 ├── errors.c              # Error handling
 ├── headers.h             # Shared definitions and structs
 ├── makefile              # Build script
@@ -46,7 +46,7 @@ Program files/
 
 3. **Run the assembler:**
    ```bash
-   ./assembler path_to_file/filename(without_extension)
+   ./assembler filename(without_extension)
    ```
 
    Running this will generate the `.ob`, `.ent`, and `.ext` output files in the same directory.

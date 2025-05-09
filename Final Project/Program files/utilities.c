@@ -1,7 +1,7 @@
 #include "headers.h"
 
 /*
-* File: utilitys.c
+* File: utilities.c
 *
 * This file is including functions that are being used in the assembler.c file, and 
 * also functions that are being used in more than one file from the project files.
@@ -339,5 +339,5 @@ void checkIfRemainMoreFile(int argc)
 		printf("Continue reading the next file\n");
 }
 
-/****************************************************************** - END OF UTILITYS - ******************************************************************/
+/****************************************************************** - END OF UTILITIES - ******************************************************************/
 

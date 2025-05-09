@@ -1,4 +1,4 @@
-OBJECTS = assembler.o pre_processor.o first_pass.o second_pass.o utilitys.o errors.o
+OBJECTS = assembler.o pre_processor.o first_pass.o second_pass.o utilities.o errors.o
 OBJECTS_FLAGS = -c -Wall -ansi -pedantic
 
 assembler: $(OBJECTS)
@@ -16,8 +16,8 @@ first_pass.o: first_pass.c
 second_pass.o: second_pass.c
 	gcc $(OBJECTS_FLAGS) second_pass.c -lm 
 
-utilitys.o: utilitys.c
-	gcc $(OBJECTS_FLAGS) utilitys.c -lm 
+utilities.o: utilities.c
+	gcc $(OBJECTS_FLAGS) utilities.c -lm 
 	
 errors.o: errors.c
 	gcc $(OBJECTS_FLAGS) errors.c -lm 
