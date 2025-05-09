@@ -16,7 +16,7 @@ The program also includes a pre-processor stage for handling macros.
 - **Operating Systems:** Windows & Linux compatible
 - **Build System:** `make`
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 Program files/
@@ -58,6 +58,50 @@ Located in `Example tests/`, each test includes:
 - Assembly source code
 - Output files: `.ob`, `.ent`, `.ext`
 - Screenshot for reference (in some cases)
+
+## 🧠 Instruction Set Overview
+
+### 📘 Supported Instructions
+
+The assembler supports 16 machine instructions, each with an opcode and addressing modes:
+
+| Instruction | Opcode | Description            |
+|-------------|--------|------------------------|
+| mov         | 0      | Copy source to target  |
+| cmp         | 1      | Compare source & target|
+| add         | 2      | Add source to target   |
+| sub         | 3      | Subtract from target   |
+| not         | 4      | Bitwise NOT            |
+| clr         | 5      | Clear target           |
+| lea         | 6      | Load address           |
+| inc         | 7      | Increment target       |
+| dec         | 8      | Decrement target       |
+| jmp         | 9      | Jump to label          |
+| bne         | 10     | Branch if not equal    |
+| red         | 11     | Read input to target   |
+| prn         | 12     | Print operand          |
+| jsr         | 13     | Jump to subroutine     |
+| rts         | 14     | Return from subroutine |
+| stop        | 15     | Stop program           |
+
+### 🧭 Addressing Modes
+
+| Mode Name      | Code | Description                                   |
+|----------------|------|-----------------------------------------------|
+| Immediate      | 0    | Constant value (e.g., `#5`)                   |
+| Direct         | 1    | Symbolic label (e.g., `LABEL`)                |
+| Register Direct| 2    | Register name (e.g., `r3`)                    |
+| Register Indirect | 3 | Pointer to memory via register (e.g., `*r3`)  |
+
+### 🧾 Assembler Directives
+
+| Directive   | Description                                                |
+|-------------|------------------------------------------------------------|
+| `.data`     | Defines numeric data in memory. Example: `.data 3, -2, 5`  |
+| `.string`   | Defines a null-terminated string. Example: `.string "abc"` |
+| `.entry`    | Declares a symbol for the entry table (`.ent` file).       |
+| `.extern`   | Declares an external symbol (from another file).           |
+
 
 ## ✍️ Author
 
