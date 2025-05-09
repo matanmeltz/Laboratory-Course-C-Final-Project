@@ -50,6 +50,7 @@ Program files/
    ```
 
    > ⚠️ **Note:** In the directory, the input file must have the `.as` extension!
+   
    Running this will generate the `.ob`, `.ent`, and `.ext` output files in the same directory.
    
 
