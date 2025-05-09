@@ -31,7 +31,6 @@ Program files/
 ├── makefile              # Build script
 ```
 
-Example tests are located in `Example tests/`, including both input and expected output files.
 
 ## 🔧 How to Build and Run
 
@@ -47,10 +46,11 @@ Example tests are located in `Example tests/`, including both input and expected
 
 3. **Run the assembler:**
    ```bash
-   ./assembler path/to/file.as
+   ./assembler path_to_file/filename(without_extension)
    ```
 
    This will generate the `.ob`, `.ent`, and `.ext` output files in the same directory.
+   *In the directory, the input filename must have the .as extension.
 
 ## 📂 Example Test Files
 
