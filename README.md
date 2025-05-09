@@ -25,7 +25,7 @@ Program files/
 ├── first_pass.c          # First-pass logic
 ├── second_pass.c         # Second-pass logic
 ├── pre_processor.c       # Macro processing
-├── general_functions.c   # Utility functions
+├── utilitys.c            # Utility functions
 ├── errors.c              # Error handling
 ├── headers.h             # Shared definitions and structs
 ├── makefile              # Build script
