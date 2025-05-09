@@ -49,8 +49,8 @@ Program files/
    ./assembler path_to_file/filename(without_extension)
    ```
 
-   This will generate the `.ob`, `.ent`, and `.ext` output files in the same directory.
-   *In the directory, the input filename must have the .as extension.
+   Running this will generate the `.ob`, `.ent`, and `.ext` output files in the same directory.
+   **In the directory, the input filename must have the .as extension.**
 
 ## 📂 Example Test Files
 
