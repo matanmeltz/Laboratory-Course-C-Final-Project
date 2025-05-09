@@ -46,11 +46,12 @@ Program files/
 
 3. **Run the assembler:**
    ```bash
-   ./assembler filename(without_extension)
+   ./assembler path/to/filename  # Do NOT include the .as extension
    ```
 
+   > ⚠️ **Note:** In the directory, the input file must have the `.as` extension!
    Running this will generate the `.ob`, `.ent`, and `.ext` output files in the same directory.
-   > ⚠️ **Note:** In the directory, the input filename must have the `.as` extension!
+   
 
 ## 📂 Example Test Files
 
